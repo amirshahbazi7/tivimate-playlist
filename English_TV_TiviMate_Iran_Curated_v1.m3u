@@ -1,0 +1,53 @@
+#EXTM3U
+# Curated for TiviMate Free - English TV / Iran-conscious v1
+# Source base: iptv-org public streams
+# Ordering is intentional because Favorites/advanced grouping may be unavailable.
+
+# ===== 01 NEWS =====
+#EXTINF:-1 tvg-id="AlJazeera.qa@English" group-title="01 NEWS",01 • Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr" group-title="01 NEWS",02 • TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="CNAInternational.sg" group-title="01 NEWS",03 • CNA International
+https://d2e1asnsl7br7b.cloudfront.net/4d0d0e4f0c1f4f62a9f4f6e6d7bff8a8/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" group-title="01 NEWS",04 • NHK World-Japan
+https://master.nhkworld.jp/nhkworld-tv/playlist.m3u8
+
+# ===== 02 INTERNATIONAL =====
+#EXTINF:-1 tvg-id="ArirangTV.kr" group-title="02 INTERNATIONAL",05 • Arirang TV
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Alhurra.us@SD" group-title="02 INTERNATIONAL",06 • Alhurra
+https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8
+#EXTINF:-1 tvg-id="AmuTV.us@SD" group-title="02 INTERNATIONAL",07 • Amu TV
+https://jmc-live.ercdn.net/amutv/amutv.m3u8
+
+# ===== 03 GENERAL & CULTURE =====
+#EXTINF:-1 tvg-id="AfroLandTV.us@SD" group-title="03 GENERAL & CULTURE",08 • AfroLand TV
+https://alt-al.otteravision.com/alt/al/al.m3u8
+#EXTINF:-1 tvg-id="AKCTV.us@SD" group-title="03 GENERAL & CULTURE",09 • AKC TV
+https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="AceTV.us@SD" group-title="03 GENERAL & CULTURE",10 • Ace TV
+https://c.streamhoster.com/link/hls/W5s3fS/inLo5pcsHjo/iqg9wps0m1x_5/playlist.m3u8
+
+# ===== 04 WEATHER & INFORMATION =====
+#EXTINF:-1 tvg-id="AlabamaWeatherNetwork.us@SD" group-title="04 WEATHER & INFO",11 • Alabama Weather Network
+https://alwxnet-ott-proxy.cloud9streaming.com/alwxnet/live/playlist.m3u8
+
+# ===== 05 COMMUNITY / REAL LIVE TV =====
+#EXTINF:-1 tvg-id="AccessNashua.us@SD" group-title="05 COMMUNITY",12 • Access Nashua
+https://livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="AccessVisionChannel16.us@SD" group-title="05 COMMUNITY",13 • AccessVision 16
+https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="AccessVisionChannel17.us@SD" group-title="05 COMMUNITY",14 • AccessVision 17
+https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="AFTV.us@SD" group-title="05 COMMUNITY",15 • AFTV
+https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+
+# ===== 06 OPTIONAL / TEST =====
+# These are intentionally at the bottom. Keep only if they work well on your ISP.
+#EXTINF:-1 tvg-id="ABC.us@East" group-title="06 OPTIONAL TEST",16 • ABC East [Test]
+http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="AMC.us@East" group-title="06 OPTIONAL TEST",17 • AMC East [Test]
+http://190.11.225.124:5000/live/amc_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="AmericanHorrors.us@SD" group-title="06 OPTIONAL TEST",18 • American Horrors [Test]
+http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
